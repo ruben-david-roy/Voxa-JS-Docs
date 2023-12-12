@@ -4,7 +4,7 @@ class Translator {
     constructor(source, target) {
         this.source = source;
         this.target = target;
-        this.baseUrl = 'https://voxa.dark9015.repl.co/api';
+        this.baseUrl = 'https://voxa.dark9015.repl.co/api'; // send request to API
     }
 
     async translate(text) {
